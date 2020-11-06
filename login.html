@@ -1,61 +1,28 @@
-<html>
-	<head>
-		<title>Login</title>
-	<style type="text/css">
-		h1{
-			color:green;
-			font-weight:bold;
-			position: relative;
-			top: 55px;
-			left:470px;
-		}
-		
-		#loginform{
-			position:relative;
-			top:85px;
-			left:455px;
-			<!-- border:1px solid black;
-			border-size: 30px; -->
-			<!-- text-align:center; -->
-			<!-- left:10%; -->
-		}
-		input{
-			border-radius:5px;
-			border-color: white;
-		}
-		p{
-			
-		}
-		body{
-			height:450px;
-			width: 600px;
-			background-color:pink;
-		}
-	</style>
-	</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login_style.css">
+</head>
+<!-- #68b0ab -->
 	<body>
-	<h1>Login</h1>
-	<
-	<div id="loginform">
-		<form action="doctor.html" autocomplete="on">
-			<p><label for="hospital-name">Hospital name:</label><br>
-			<input type="text" id="hospital-name" name="hospital-name" placeholder="Hospital Name"></p>
-			<p><label for="hospital-id">Hospital Id:</label><br>
-			<input type="text" id="hospital-id" name="hospital-id" placeholder="Hospital ID"></p>
-			<p><label for="city">City:</label><br>
-			<select>
-				<option value="dwd" selected>Dharwad</option>
-				<option value="hbl">Hubli</option>
-				<option value="hbl-dwd">Hubli-Dharwad</option>
-			</select>
-			</p>
-			<p><label for="state">State:</label><br>
-			<input type="text" id="state" name="state" placeholder="State"></p>
-			<input type="submit" value="Click me">
+		<div class="sign-up-form">
+		<h1>Login</h1>
+		<form action="dr_signin.html">
+			<input type="text" class="input-box" placeholder="Hospital name">
+			<input type="text" class="input-box" placeholder="Hospital ID">
+			<!-- <input type="password" class="input-box" placeholder="Password"> -->
+			<input type="text" class="input-box" placeholder="City">
+			<input type="text" class="input-box" placeholder="State">
+			<p><span><input type="checkbox"></span>I agree to terms and conditions</p>
+			<!-- <button  type="button" class="signup-btn">Sign in</button> -->
+			<input type="submit" class="signup-btn">
 		</form>
-	
-	
-	</div>
+
+		</div>
+
 	</body>
 
 </html>
