@@ -1,0 +1,86 @@
+body {
+  background-image: url("https://backpainsa.com/wp-content/uploads/2015/02/bigstock-Medical-physician-doctor-hands-84721406.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+	/* color: #00587a; */
+}
+h1 {
+  text-align: center;
+  color: #00004d;
+  /* color: #16a596;*/
+  background-color: #dae1e7;
+  letter-spacing: 2x;
+  position: relative;
+  /* BACKGROUND TRANCEPARENT */
+  background: rgba(255,255,255,.5);
+}
+
+h2 {
+  text-align: center;
+  /* color: #27496d; */
+  color: #6a097d;
+  /* color: #799351; */
+  /* color: #41aea9; */
+  /* color: #008891; */
+  padding-top: 5%;
+}
+
+p {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+.image1 {
+  padding-left: 39%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#Section1 {
+  padding: 10% 5% 2% 5%;
+
+}
+
+#Section2 {
+  padding-bottom: 2%;
+}
+
+#Section3 {
+  /* background-color: #99a8b2; */
+  /* padding-bottom: .5%; */
+}
+
+#footer {
+  text-align: center;
+}
+
+.icon {
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.image {
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  #Section1 {
+    padding-top: 20%;
+  }
+}

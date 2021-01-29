@@ -1,0 +1,28 @@
+body{
+	padding-bottom:7%;
+	font-family: sans-serif;
+	background-color: #f3eac2;
+}
+.sign-up-form{
+	width: 300px;
+	box-shadow: 10px 5px 5px grey;
+	background: #fff;
+	padding: 25px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+.input-box{
+	padding: 3%;
+	margin: 3%;
+}
+.signup-btn{
+	background-color:#68b0ab;
+	width: 50%;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 20px;
+	color:#900d0d;
+}
+.signup-btn:hover{
+	background-color:#848ccf;
+}

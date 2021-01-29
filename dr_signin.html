@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'doctor_style.css' %}" >
+	</head>
+
+	<body>
+		<div class="sign-up-form">
+		<h1>Login</h1>
+		<form action="dr_signin" method="post">
+			{%csrf_token%}
+			<input type="text" class="input-box" placeholder="Username" required>
+			<!--<input type="text" class="input-box" placeholder="Last Name" required>-->
+			<input type="password" class="input-box" placeholder=" Enter Password" required>
+			<input type="email" class="input-box" placeholder="Enter Email ID" required>
+			<!-- <input type="text" class="input-box" placeholder="Reference Doctor's name"> -->
+			<!--<input type="text" class="input-box" placeholder="Hospital ID" required> -->
+			<!--<input type="text" class="input-box" placeholder="Hospital name" required> -->
+			<!--<p><span><input type="checkbox" required></span>I agree to terms and conditions</p> -->
+			<button type="button" class="signup-btn" id="btn"><a href="upload.html">Login</a></button>
+			<hr>
+			<p><b>OR</b></p>
+			<p>New user? <a href="doctor_signup.html">Create an account</a></p>
+		</form>
+		</div>
+<!--	<script type="text/javascript">-->
+<!--		document.getElementById("btn").onclick = function(){-->
+<!--			document.getElementById("upload");-->
+<!--		}-->
+<!--	</script>-->
+	</body>
+
+</html>

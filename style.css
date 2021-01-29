@@ -1,0 +1,22 @@
+body{
+  background-color: #fff3e6;
+   text-align: center;
+}
+h2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+.btn{
+  margin-top: 5%;
+}
+.div{
+  margin: 10% auto;
+  width:600px;
+  border: 1px black solid;
+  padding: 3%;
+}
+span{
+  padding-top: 5%;
+  padding-left: 2%;
+}
